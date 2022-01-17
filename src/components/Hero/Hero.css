@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oswald:wght@200&family=Poppins:wght@200;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+  --purpleFont: #272d4e;
+}
+.flex {
+  display: flex;
+}
+a {
+  text-decoration: none;
+}
+#mainContainer {
+  background-image: url(../../assets/Group-25.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+#Header {
+  width: 95%;
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 1rem;
+  min-height: 10vh;
+}
+#Nav li a:hover {
+  color: white;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 1px solid #7854f7;
+  color: #7854f7;
+}
+#Nav {
+  padding-left: 0;
+  list-style: none;
+  margin: 0 0;
+}
+#NavList {
+  flex: 3;
+}
+#Nav li {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+#Nav li a {
+  color: var(--purpleFont);
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 13px;
+}
+#thirdPart {
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+#logIn a {
+  color: var(--purpleFont);
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 13px;
+  padding-right: 1rem;
+}
+#btn {
+  background-color: #7854f7;
+  border: none;
+  outline: none;
+  border-radius: 0.3rem;
+  padding: 0.7rem;
+  color: white;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 13px;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+#thirdPart a {
+  align-self: center;
+  cursor: pointer;
+}
+#logo {
+  flex: 1;
+  align-self: center;
+  padding-top: 1rem;
+}
+#HeroBottom {
+  margin-top: 10vh;
+  min-height: 70vh;
+}
+#left {
+  flex: 1;
+  padding-left: 10rem;
+  padding-top: 3.5rem;
+}
+#right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+#imgHero {
+  height: 90%;
+  max-width: 100%;
+}
+#leftP {
+  color: var(--purpleFont);
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 65px;
+  line-height: 5rem;
+  margin-bottom: 29px;
+}
+#leftP2 {
+  color: #94a2b3;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 13px;
+  width: 80%;
+  margin-bottom: 25px;
+}
+#left button {
+  border: none;
+  background-color: #7854f7;
+  padding: 18px 35px;
+  color: white;
+  border-radius: 25px 25px 25px 25px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 13px;
+  cursor: pointer;
+}
+#span {
+  margin: 0 10px;
+  color: #94a2b3;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 13px;
+}
+#span2 {
+  color: #299ef3;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+}
+#moveUp {
+  background-color: #7854f7;
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  position: fixed;
+  z-index: 100;
+  animation: move 1.5s infinite;
+}
+.flexHero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes move {
+  0% {
+    bottom: 0%;
+    right: 1%;
+  }
+  50% {
+    bottom: 0.5%;
+    right: 1%;
+  }
+  100% {
+    bottom: 0%;
+    right: 1%;
+  }
+}
+#listIcon {
+  position: absolute;
+  top: 4.5%;
+  right: 4%;
+  font-size: 30px;
+  color: #0a0a0a;
+  display: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 1115px) {
+  #leftP {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+}
+@media screen and (max-width: 970px) {
+  #imgHero {
+    height: 80%;
+  }
+  #left {
+    padding-left: 2rem;
+  }
+}
+@media screen and (max-width: 920px) {
+  #listIcon {
+    display: inline-block;
+  }
+  #Header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #logo {
+    align-self: flex-start;
+  }
+  #Nav {
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  #NavList {
+    background-color: white;
+    width: 98%;
+  }
+  #Nav li {
+    margin-bottom: 5px;
+  }
+  #logIn {
+    margin-bottom: 5px;
+  }
+  #btn {
+    margin-bottom: 20px;
+  }
+  #thirdPart {
+    flex-direction: column;
+    background-color: white;
+    padding-top: 15px;
+    align-items: flex-start;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    width: 98%;
+  }
+  #btnSearch {
+    display: none;
+  }
+
+  #left {
+    padding-left: 2rem;
+  }
+  #btn {
+    width: fit-content;
+  }
+  .none {
+    display: none;
+  }
+  .displayed {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  #HeroBottom {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0vh;
+  }
+  #leftP2 {
+    margin: 0px auto 60px auto;
+  }
+  #left {
+    margin-bottom: 80px;
+  }
+  #right {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 500px) {
+  #left {
+    flex: 1;
+    padding-left: 5%;
+    padding-top: 3.5rem;
+  }
+}

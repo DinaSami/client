@@ -1,0 +1,45 @@
+#FithContainer{
+    margin-top: 80px;
+}
+#fifthP1{
+    text-align: center;
+    color: #272D4E;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+#fifthP2{
+    /* width: 550px; */
+    max-width: 550px;
+    text-align: center;
+margin: 0 auto;
+color: #94A2B3;
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 14px;
+line-height: 1.5rem;
+}
+#FithContainerImg{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: 5px;
+    z-index: -1;
+}
+#FithContainerImage{
+    max-width:100%;
+
+}
+@media screen and (max-width:740px){
+    #fifthP1{
+padding-top: 80px;
+        font-size: 32px;
+    }
+}
+@media screen and (max-width:500px){
+    #fifthP1{
+padding-top: 30px;
+    }
+}
+
+

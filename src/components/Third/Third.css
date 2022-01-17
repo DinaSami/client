@@ -1,0 +1,114 @@
+#ThirdContainer {
+  background-image: url(../../assets/background-third.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 80px;
+  min-height: 100%;
+}
+.topThird {
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+}
+.thirdImg {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.thirdP {
+  flex: 2;
+  align-self: center;
+  padding: 0 15px;
+  width: fit-content;
+}
+#innerDiv2 {
+  max-width: 60%;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  text-align: justify;
+}
+#innerDiv1 {
+  max-width: 60%;
+  text-align: justify;
+}
+#test {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.thirdImgSelf {
+  max-width: 100%;
+  position: relative;
+}
+#thirdImgSelf1 {
+  bottom: 2%;
+  align-self: flex-end;
+}
+#thirdImgSelf2 {
+  top: 10%;
+  align-self: flex-start;
+}
+.thirdP p:nth-of-type(1) {
+  display: inline-block;
+  color: white;
+  font-size: 30px;
+  font-family: "Roboto";
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+.thirdP p:nth-of-type(2) {
+  color: #f7f7f7;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5rem;
+  padding-bottom: 20px;
+}
+.anchorP {
+  background-color: #70c217;
+  color: #f7f7f7;
+  font-family: "Roboto";
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  padding: 22px 26px !important;
+  display: inline-block;
+  border-radius: 30px 30px;
+  cursor: pointer;
+  width: fit-content;
+}
+@media screen and (max-width: 1090px) {
+  .thirdP {
+    flex: 1;
+  }
+  #innerDiv2 {
+    max-width: 100%;
+  }
+  #innerDiv1 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .topThird {
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  .thirdImg {
+    width: 50%;
+  }
+  #innerDiv2 {
+    margin-top: 0px;
+  }
+  #thirdImgSelf2 {
+    align-self: flex-end;
+    top: 15px;
+  }
+  #ThirdContainer {
+    background-image: url(../../assets/newBack.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  #thirdImgSelf1 {
+    bottom: 15px;
+  }
+}
