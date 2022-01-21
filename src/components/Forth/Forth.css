@@ -92,7 +92,7 @@ left: 0%;
     left: 0%;
   }
 }
-@-o-@keyframes next {
+@-o-keyframes next {
   0%{
 position: relative;
 left: 0%;
@@ -106,7 +106,7 @@ left: 0%;
     left: 0%;
   }
 }
-@-moz-@keyframes next {
+@-moz-keyframes next {
   0%{
 position: relative;
 left: 0%;
@@ -120,7 +120,7 @@ left: 0%;
     left: 0%;
   }
 }
-@-webkit-@keyframes next {
+@-webkit-keyframes next {
   0%{
 position: relative;
 left: 0%;
