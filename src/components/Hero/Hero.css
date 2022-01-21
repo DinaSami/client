@@ -50,6 +50,9 @@ a {
   justify-content: flex-end;
   align-items: center;
 }
+.gg{
+  display: flex;
+}
 #logIn a {
   color: var(--purpleFont);
   font-family: "Roboto";
@@ -243,6 +246,7 @@ a {
   .displayed {
     display: block;
   }
+
 }
 
 @media screen and (max-width: 745px) {
@@ -259,7 +263,8 @@ a {
   }
   #right {
     margin: 0 auto;
-    width: 90%;
+   height: 100%; 
+   width: 100%;
   }
 }
 @media screen and (max-width: 500px) {

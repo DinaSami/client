@@ -14,51 +14,64 @@ import sixthPic from "../../assets/sixthPic.svg";
 function Forth() {
   return (
     <>
-      <div id="containerForth">
+      <div id="centerForthContainer">
         <p id="ForthP">Trusted by Agencies & Store Owners</p>
-        <div id="centerForth">
-          <p id="centerForthP">
-            No other eCommerce platform allows people to start for free and grow
-            their store as their business grows. More importantly, WooCommerce
-            doesn't charge you a portion of your profits as your business grows!
-          </p>
-          <img src={Qoutes} id="qoutes" />
+        <div id="containerForth">
+          <div id="firstPics">
+          <div id="secondPic" class="flex">
+              <img src={secondPic} class="pic" data-aos="zoom-in" data-aos-duration="3000"  data-aos-offset="200"
+    data-aos-delay="50"/>
+            </div>
+
+            <div id="firstPic" class="flex">
+              <img src={firstPic} class="pic" data-aos="zoom-in" data-aos-duration="3000" data-aos-offset="200"
+    data-aos-delay="50"/>
+            </div>
+
+            <div id="thirdPic" class="flex">
+              <img src={thirdPic} class="pic" data-aos="zoom-in" data-aos-duration="3000"  data-aos-offset="200"
+    data-aos-delay="50"/>
+            </div>
+          </div>
+          <div id="centerForth">
+            <p id="centerForthP">
+              No other eCommerce platform allows people to start for free and
+              grow their store as their business grows. More importantly,
+              WooCommerce doesn't charge you a portion of your profits as your
+              business grows!
+            </p>
+            <img src={Qoutes} id="qoutes" />
+            <div id="iconsForth">
+              <BsArrowLeft class="iconForth"  id="back"/>
+              <BsArrowRight class="iconForth" id="next" />
+            </div>
+          </div>
+
+          <div id="secondPics">
+          <div id="fifthPic" class="flex">
+              <img src={fifthPic} class="pic" data-aos="zoom-in" data-aos-duration="3000"  data-aos-offset="200"
+    data-aos-delay="50"/>
+            </div>
+            
+            <div id="forthPic" class="flex">
+              <img src={forthPic} class="pic" data-aos="zoom-in" data-aos-duration="3000"  data-aos-offset="200"
+    data-aos-delay="50"/>
+            </div>
+
+            <div id="sixthPic" class="flex">
+            
+              <img src={sixthPic} class="pic" data-aos="zoom-in" data-aos-duration="3000"  data-aos-offset="200"
+    data-aos-delay="50"/>
+            </div>
+          </div>
         </div>
+
         <div id="red">
           <img src={red} id="redImg" />
         </div>
         <div id="green">
           <img src={green} id="greenImg" />
         </div>
-        <div id="iconsForth">
-          <BsArrowLeft class="iconForth" color="gray" />
-          <BsArrowRight class="iconForth" id="next" />
-        </div>
-
-        <div id="firstPic" class="pics">
-          <img src={firstPic} class="pic"/>
-        </div>
-
-        <div id="secondPic" class="pics">
-          <img src={secondPic} class="pic"/>
-        </div>
-
-        <div id="thirdPic" class="pics">
-          <img src={thirdPic} class="pic"/>
-        </div>
-
-        <div id="forthPic" class="pics">
-          <img src={forthPic} class="pic"/>
-        </div>
-
-        <div id="fifthPic" class="pics">
-          <img src={fifthPic} class="pic"/>
-        </div>
-
-        <div id="sixthPic" class="pics">
-          <img src={sixthPic} class="pic"/>
-        </div>
-
       </div>
     </>
   );

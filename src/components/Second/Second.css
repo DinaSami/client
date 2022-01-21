@@ -59,10 +59,19 @@
         display: flex;
         margin: 0 auto;
         flex-direction: column;
-        /* align-items: center; */
         justify-content: center;
     }
     #centerCard{
         margin: 0 0px;
+    }
+    #thirdCard{
+        padding-top: 0px;
+    }
+   .card {
+        border-bottom: 1px solid rgba(128, 128, 128, 0.322);
+padding-bottom: 15px;
+    }
+    #cardContainer div:last-child{
+        border-bottom:none;
     }
 }

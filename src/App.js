@@ -7,6 +7,10 @@ import Forth from './components/Forth/Forth';
 import Fifth from './components/Fifth/Fifth';
 import Footer from './components/Footer/Footer';
 import 'animate.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 function App() {
   return (

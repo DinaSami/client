@@ -79,14 +79,6 @@ function Footer() {
             </div>
 
             <div class="flexDiv">
-              <p class="headP">Other products</p>
-              <p class="styleP">Storefront</p>
-              <p class="styleP">WooSlider</p>
-              <p class="styleP">Sensei</p>
-              <p class="styleP">Sensei Extensions</p>
-            </div>
-
-            <div class="flexDiv">
               <p class="headP">Support</p>
               <p class="styleP">Documentation</p>
               <p class="styleP">Customizations</p>
@@ -95,6 +87,14 @@ function Footer() {
               <p class="styleP">Privacy Notice for</p>
               <p class="styleP">COVID-19 Resources</p>
               <p class="styleP">California Users</p>
+            </div>
+
+            <div class="flexDiv">
+              <p class="headP">Other products</p>
+              <p class="styleP">Storefront</p>
+              <p class="styleP">WooSlider</p>
+              <p class="styleP">Sensei</p>
+              <p class="styleP">Sensei Extensions</p>
             </div>
 
             <div class="flexDiv">
@@ -116,7 +116,7 @@ function Footer() {
             <a href='#'><AiFillInstagram size='20px'/></a>
               </div>
           </div>
-          <p>
+          <p id='footerPar'>
             COPYRIGHT WOOCOMMERCE 2020 -{" "}
             <a href='#'>
               <span><strong>TERMS & CONDITIONS PRIVACY POLICY</strong></span>

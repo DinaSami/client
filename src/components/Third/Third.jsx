@@ -8,7 +8,11 @@ function Third() {
     <div id="ThirdContainer">
       <div class="topThird">
         <div class="thirdImg">
-          <img src={img1} class="thirdImgSelf" id="thirdImgSelf1" />
+          <img src={img1} class="thirdImgSelf" id="thirdImgSelf1"  data-aos="fade-down"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"/>
         </div>
         <div class="thirdP">
             <div id='innerDiv2'>
@@ -49,7 +53,11 @@ function Third() {
           </div>
         </div>
         <div class="thirdImg">
-          <img src={img2} class="thirdImgSelf" id="thirdImgSelf2" />
+          <img src={img2} class="thirdImgSelf" id="thirdImgSelf2"  data-aos="fade-down"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"/>
         </div>
       </div>
     </div>

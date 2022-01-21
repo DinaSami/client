@@ -5,13 +5,17 @@ import Image2 from "../../assets/secondCard.png";
 import Image3 from "../../assets/thirdCard.png";
 function Second() {
   return (
-    <div id="cointainer">
+    <div id="cointainer" >
       <p id='SecondP'>Your eCommerce made simple</p>
       <div id="cardContainer">
 
         <div class="card">
           <div class="topCard">
-            <img src={Image1} />
+            <img src={Image1} data-aos="fade-down"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"/>
           </div>
           <div class="bottomCard">
             <p class='cardP'>All You Need to Start</p>
@@ -25,7 +29,11 @@ function Second() {
   
         <div class="card" id='centerCard'>
           <div class="topCard" >
-            <img src={Image2} />
+            <img src={Image2} data-aos="fade-down"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="2000"
+    data-aos-easing="ease-in-out"/>
           </div>
           <div class="bottomCard">
             <p class='cardP'>Customize and Extend</p>
@@ -38,7 +46,11 @@ function Second() {
 
         <div class="card">
           <div class="topCard" id='thirdCard'>
-            <img src={Image3} />
+            <img src={Image3} data-aos="fade-down"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="3000"
+    data-aos-easing="ease-in-out"/>
           </div>
           <div class="bottomCard">
             <p class='cardP'>Active Community</p>

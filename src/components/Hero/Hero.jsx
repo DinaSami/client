@@ -56,7 +56,7 @@ const [background, setbackground] = useState('transparent');
           </a>
         </div>
 
-        <nav id="NavList" class={`${display} animate__animated animate__fadeIn`}>
+        <nav id="NavList" class={`${display}  animate__animated animate__fadeIn`}>
           <ul id="Nav" class="flex">
             <li>
               <a href="#">Sell</a>
@@ -76,7 +76,7 @@ const [background, setbackground] = useState('transparent');
           </ul>
         </nav>
 
-        <div id="thirdPart" class={`flex ${display} animate__animated animate__fadeIn`}>
+        <div id="thirdPart" class={`${display} gg animate__animated animate__fadeIn`}>
           <p id="logIn">
             <a href="#">log In</a>
           </p>

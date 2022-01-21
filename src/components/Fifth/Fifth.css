@@ -28,17 +28,22 @@ line-height: 1.5rem;
 }
 #FithContainerImage{
     max-width:100%;
-
 }
 @media screen and (max-width:740px){
     #fifthP1{
 padding-top: 80px;
         font-size: 32px;
     }
+    #FithContainer{
+        margin-top: 0px;
+    }
 }
 @media screen and (max-width:500px){
     #fifthP1{
 padding-top: 30px;
+    }
+    #FithContainer{
+        margin-top: 0px;
     }
 }
 
