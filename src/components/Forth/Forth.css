@@ -102,6 +102,12 @@ left: 0%;
 -webkit-animation-duration: .7s;
 -webkit-animation-iteration-count: infinite;
 }
+#next:active {
+  /* animation: next .7s infinite; */
+  -webkit-animation-name: next;
+-webkit-animation-duration: .7s;
+-webkit-animation-iteration-count: infinite;
+}
 
 #back{
   color: grey;
