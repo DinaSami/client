@@ -97,8 +97,12 @@ left: 0%;
   color: rgb(0, 0, 0);
 }
 #next:hover {
-  animation: next .7s infinite;
+  /* animation: next .7s infinite; */
+  -webkit-animation-name: next;
+-webkit-animation-duration: .7s;
+-webkit-animation-iteration-count: infinite;
 }
+
 #back{
   color: grey;
 }
