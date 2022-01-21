@@ -92,6 +92,48 @@ left: 0%;
     left: 0%;
   }
 }
+@-o-@keyframes next {
+  0%{
+position: relative;
+left: 0%;
+  }
+  50%{
+    position: relative;
+    left: 10%;
+  }
+  100%{
+    position: relative;
+    left: 0%;
+  }
+}
+@-moz-@keyframes next {
+  0%{
+position: relative;
+left: 0%;
+  }
+  50%{
+    position: relative;
+    left: 10%;
+  }
+  100%{
+    position: relative;
+    left: 0%;
+  }
+}
+@-webkit-@keyframes next {
+  0%{
+position: relative;
+left: 0%;
+  }
+  50%{
+    position: relative;
+    left: 10%;
+  }
+  100%{
+    position: relative;
+    left: 0%;
+  }
+}
 #next {
   font-size: 25px;
   color: rgb(0, 0, 0);
